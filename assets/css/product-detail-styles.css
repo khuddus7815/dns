@@ -1,0 +1,95 @@
+/* Product Detail Page Styles */
+
+/* Discount Badge Styling */
+.discount-badge {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.discount-percent {
+    background: linear-gradient(135deg, #f3ba75 0%, #e8a855 100%);
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(243, 186, 117, 0.4);
+}
+
+.price-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.original-price {
+    color: #999;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.original-price del {
+    color: #999;
+}
+
+/* Golden Brown Rating Badge for Product Detail */
+.product-detail-page .modern-rating-badge .golden-rating,
+.modern-rating-badge .golden-rating {
+    background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+    color: #fff;
+    border-radius: 20px;
+    padding: 4px 10px;
+    box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+.product-detail-page .modern-rating-badge .golden-rating .star i,
+.modern-rating-badge .golden-rating .star i {
+    color: #fff !important;
+    font-size: 0.9rem;
+}
+
+.product-detail-page .golden-text-white,
+.golden-text-white {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.product-detail-page .golden-text,
+.golden-text {
+    color: #8B6914 !important;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+/* Product Buttons Layout */
+.product-buttons {
+    display: flex !important;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+}
+
+.product-buttons .btn {
+    flex: 1;
+    min-width: 0;
+}
+
+/* View Cart button should have same style as Add to Cart */
+.view-cart-btn {
+    /* Inherits btn-outline class styles which match addtocart button */
+}
+
+/* Name on Cake Input Styling */
+.name-on-cake-input {
+    border-radius: 10px !important;
+    border: 1px solid #ddd !important;
+    padding: 10px 15px !important;
+}
+
+.name-on-cake-input:focus {
+    border-color: #f3ba75 !important;
+    box-shadow: 0 0 0 0.2rem rgba(243, 186, 117, 0.25) !important;
+    outline: none !important;
+}

@@ -1,0 +1,21 @@
+/* ============================================
+   ADMIN DASHBOARD AMOUNT STYLING
+   Make all amounts bold in admin panel
+   ============================================ */
+
+/* Make all amount-related numbers bold in admin dashboard */
+.page-body .total-price,
+.page-body .card-text.total-price,
+.page-body h4.total-price,
+.page-body .order-details h4,
+.page-body .order-details h5,
+.page-body .order-details p:last-child,
+.page-body .d-flex.justify-content-between p:last-child {
+	font-weight: 700 !important;
+}
+
+/* Admin order list amounts - target last column */
+.page-body table tbody tr td:last-child,
+.page-body .orderlist tbody tr td:last-child {
+	font-weight: 700 !important;
+}

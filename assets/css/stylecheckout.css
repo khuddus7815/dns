@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+p{
+    margin-bottom: 8px;
+}
+.card{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.bg-light-blue:hover{
+    background-color: #F5FAFF;
+}
+.top-bottom-border{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+    border-bottom: 1px solid #ccc;
+}
+.total-pay{
+    border-top: 1px dashed gray;
+}
+.serial-number{
+    width:20px;
+    height:20px;
+    margin: auto;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: #f8f9fa;
+    
+}
+input,
+ textarea,
+select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  padding: 3px 0px 0px 0px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-out;
+}
+a{
+    text-decoration: none;
+}
+.accordion-item {
+    display: none;
+  }
+  .accordion-item.show {
+    display: block;
+
+  }
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #fff;
+}
+.form-card-body{
+    padding: 0;
+}
+.card ,
+.card-body{
+    border-radius: 0;
+}
+.btn-change{
+    padding: 5px 20px;
+    border: 1px solid gainsboro;
+    color:blue;
+    background-color: white;
+}
+.btn-orange{
+    background-color: orangered;
+    color:white;
+    padding: 10px 20px;
+    border:none;
+}
+.btn-cancel{
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+    color:blue;
+}
+.circle-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    border: 1px solid #ccc; 
+}
+.number-div{
+    display: inline-block;
+    padding: 2px 20px;
+    border: 1px solid #ccc;
+}
+
+.fixed{
+    background-color: #feb2c0 !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.theme-color{
+    background-color: #feb2c0 !important;
+    color: #fff !important;
+}
+.padding{
+    padding: 10px !important;
+}
+
+.text-secondary_head {
+    --bs-text-opacity: 1;
+    color: #fff !important;
+}
+.mt-custom{
+    margin-top: 30px !important;
+}
+#add-another-address{
+    background-color: aliceblue;
+}
+.btn-orange:disabled {
+            filter: blur(0.7px);
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+.img_size{
+    width: 8vw !important;
+}
+
+.p_fixed{
+    position: fixed;
+}
+
+@media only screen and (max-width: 768px) {
+    .p_fixed{
+        position: inherit !important;
+    }
+}
+
+.p-10px {
+  padding: 10px !important;
+}
+.active_address{
+    background-color: aliceblue ;
+}
+.bold{
+    font-weight: 700;
+}
